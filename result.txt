@@ -1,0 +1,13 @@
+-----------search for-----------google
+
+10--http://wordpress.com/--LOAD_ERROR
+9--http://linkedin.com/--MATCHED
+5--http://wordpress.org/--MATCHED
+3--http://google.com/--LOAD_ERROR
+11--http://yahoo.com/--MATCHED
+2--http://twitter.com/--LOAD_ERROR
+4--http://youtube.com/--LOAD_ERROR
+8--http://wikipedia.org/--LOAD_ERROR
+1--http://facebook.com/--LOAD_ERROR
+7--http://blogspot.com/--LOAD_ERROR
+6--http://adobe.com/--LOAD_ERROR
