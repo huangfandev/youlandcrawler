@@ -77,7 +77,7 @@ public class SimpleLoaderEngine implements ILoaderEngine{
 	@Override
 	public String usage() {
         StringBuilder sb = new StringBuilder();
-        sb.append("<SimpleLoaderEngine> default engine, use HttpURLConnection.\n");
+        sb.append("<SimpleLoaderEngine> simple engine, use HttpURLConnection.\n");
 		sb.append("    extra parameters:\n");
 		sb.append("    -DproxyHost\n");
 		sb.append("    -DproxyPort  deafult 8080");

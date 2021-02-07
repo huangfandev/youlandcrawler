@@ -16,7 +16,7 @@ public class Config {
     private String searchTerm;
 
     @Parameter(names="-e",description = "loading engine, the options are as follows", order = 6)
-    private String engine = "SimpleLoaderEngine";
+    private String engine = "OkHttpLoaderEngine";
 
     @Parameter(names="-t",description = "working thread number", order = 4)
     private int workingThreadNum = 20;

@@ -3,7 +3,7 @@ package com.youland.crawler;
 import java.util.ArrayList;
 import java.util.List;
 import com.youland.crawler.engine.ILoaderEngine;
-import com.youland.crawler.engine.SimpleLoaderEngine;
+import com.youland.crawler.engine.OkHttpLoaderEngine;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -54,7 +54,7 @@ public class PageLoader {
             }catch(Exception e){
                 logger.info("engine <{}> init faild, use default engine ", config.getEngine());
                 if(engine==null){
-                    engine= new SimpleLoaderEngine();
+                    engine= new OkHttpLoaderEngine();
                 }
             }
             engine.init(config.getEngineConfigs());

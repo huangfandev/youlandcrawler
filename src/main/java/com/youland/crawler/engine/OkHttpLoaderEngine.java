@@ -78,7 +78,7 @@ public class OkHttpLoaderEngine implements ILoaderEngine{
 	public String usage() {
 		// TODO Auto-generated method stub
 		StringBuilder sb = new StringBuilder();
-		sb.append("<OkHttpLoaderEngine> OKHttp engine, java http request lib.\n");
+		sb.append("<OkHttpLoaderEngine> OKHttp engine, default engine.\n");
 		sb.append("    extra parameters:\n");
 		sb.append("    -Dtimeout    connect timeout ,default 10000ms\n");
 		sb.append("    -DproxyHost\n");
